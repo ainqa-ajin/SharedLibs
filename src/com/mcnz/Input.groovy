@@ -1,7 +1,7 @@
 package com.mcnz
 
-  public class uatInput {
-    def buildIsUatApproved() {
+  public class Input {
+    def buildIsApproved() {
     def file = new File("C:/_tools/approved.txt")
     if (file.exists()){
       return true;
