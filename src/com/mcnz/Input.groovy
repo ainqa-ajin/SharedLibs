@@ -2,7 +2,7 @@ package com.mcnz
 
   public class Input {
     def buildIsApproved() {
-    def file = new File("C:/_tools/approved.txt")
+    def file = new File("C:/MVN/approved.txt")
     if (file.exists()){
       return true;
     }
